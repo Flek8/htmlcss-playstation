@@ -7,8 +7,10 @@
 
 header {
     position: fixed;
+    top: 0;
     width: 100%;
 }
+
 .ms_bg_black {
     background-color: black;
 }
@@ -18,4 +20,83 @@ header {
 }
 .ms_height_15 {
     height: 15px;
+}
+
+.jumbotron {
+    margin-top: 90px;
+    min-height: 550px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.ms_pt_250 {
+    padding-top: 250px;
+}
+
+.ms_btn_round {
+    border-radius: 25px;
+}
+
+.ms_margin_back_40 {
+    margin-top: -40px;
+}
+
+.it-takes-two {
+    min-height: 550px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.nuove {
+    background-color: rgb(29, 29, 29);
+}
+
+.ms_img_round {
+    border-radius: 15px;
+}
+
+.ps-plus-logo {
+    background-image: url(img/ps-plus-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#ps-plus {
+    background-color: rgba(141, 140, 140, 0.692);
+}
+
+.ms_bg_light {
+    background-color: rgba(255, 255, 255, 0.404);
+    border-color: transparent;
+}
+
+#ps-now {
+    background-color: rgb(13, 13, 88);
+}
+
+.ms_btn_now {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(55, 55, 245);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ms_font_little {
+    font-size: 14px;
 }
